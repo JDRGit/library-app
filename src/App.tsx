@@ -1,12 +1,9 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Navbar } from "./layout/NavbarAndFooter/Navbar";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Welcome to the Full Stack Project</h1>
-    </div>
-  );
+  return <Navbar />;
 }
 
 export default App;
